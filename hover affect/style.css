@@ -41,7 +41,7 @@ align-items: center;
 .icon:hover i{
     animation: bounce 0.4s ease
 }
-@keyframe bounce{
+@keyframes bounce{
     0%{
         transform: translateY(0);
     }
