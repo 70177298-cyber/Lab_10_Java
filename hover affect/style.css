@@ -55,3 +55,21 @@ align-items: center;
 .dock:hover{
     transform: scale(1.05s);
 }
+/* Transition for smooth switching */
+body {
+    transition: background 0.5s ease;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+body.light-mode .dock {
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .icon i {
+    color: #333;
+}
